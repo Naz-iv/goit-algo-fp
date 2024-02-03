@@ -18,11 +18,11 @@
 
 ## Графічне представлення результатів виконання алгоритму при 100 симуляціях:
 
-![](E:\git\goit-algo-fp\total_vs_probability_100_tests.png)
+![](total_vs_probability_100_tests.png)
 
 ## Графічне представлення результатів виконання алгоритму при 1 000 000 симуляціях:
 
-![](E:\git\goit-algo-fp\total_vs_prop_1000000_tests.png)
+![](total_vs_prop_1000000_tests.png)
 
 # Висновок:
 
