@@ -43,7 +43,7 @@ def draw_tree(tree_root):
     plt.show()
 
 
-def dfs_traversal(node, visited, base_color):
+def depth_first_search(node, visited, base_color):
     if node is not None:
         visited.add(node.id)
         node.color = get_color(base_color, len(visited))
@@ -51,7 +51,7 @@ def dfs_traversal(node, visited, base_color):
         dfs_traversal(node.right, visited, base_color)
 
 
-def bfs_traversal(node, base_color):
+def breed_first_search(node, base_color):
     if node is not None:
         visited = set()
         queue = [node]
@@ -94,9 +94,9 @@ if __name__ == "__main__":
     draw_tree(root)
 
     # Visualization of DFS
-    dfs_traversal(root, set(), root.base_color)
+    depth_first_search(root, set(), root.base_color)
     draw_tree(root)
 
     # Visualisation of BFS
-    bfs_traversal(root, root.base_color)
+    breed_first_search(root, root.base_color)
     draw_tree(root)
